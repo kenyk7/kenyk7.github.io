@@ -100,6 +100,7 @@ h5{
 }
 .navbar{
 	min-height: 60px;
+	margin-bottom: 0;
 }
 @media (min-width: 768px){
 	.navbar-nav>li>a {
@@ -134,7 +135,6 @@ h5{
 }
 .main-header{
 	background: #f0f0f0;
-	margin-top: -22px;
 	margin-bottom: 40px;
 	padding: 15px 0;
 	text-align: center;
@@ -142,10 +142,10 @@ h5{
 }
 .ws{
 	background: @blue;
-	padding: 60px 0 50px;
-	margin-top: -23px;
-	// position: relative;
-	// z-index: 99;
+	padding: 0;
+	// padding: 60px 0 50px;
+	position: relative;
+	z-index: -1;
 	h1,p{
 		color: #fff;
 		strong{
@@ -153,22 +153,33 @@ h5{
 		}
 	}
 }
+#large-header{
+	padding: 60px 0 50px;
+	position: relative;
+	overflow: hidden;
+	width: 100%;
+
+}
+#conector{
+  position: absolute;
+  z-index: -1;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
 // main
 section{
-	padding: 15px 0;
+	padding-bottom: 20px;
 }
 .section-bg{
 	padding: 50px 0 40px;
 	background-size: cover;
 	background-position: center;
-	background-attachment: fixed;
 	color: #eee;
 }
 .section-bg1{
 	background-image:url(../img/section-bg1.jpg);
-}
-.section-bg2{
-	background-image:url(../img/section-bg2.jpg);
 }
 .article-item{
 	margin-bottom: 20px;
