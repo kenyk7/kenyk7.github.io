@@ -87,6 +87,8 @@ h5 {
   box-shadow: 0 5px 8px rgba(0, 0, 0, 0.3);
   text-transform: uppercase;
   font-weight: 500;
+  position: relative;
+  z-index: 999;
 }
 .navbar-inverse .navbar-toggle .icon-bar {
   background-color: #bbbbbb;
@@ -141,7 +143,7 @@ h5 {
   background: #1772fb;
   padding: 0;
   position: relative;
-  z-index: -1;
+  z-index: 1;
 }
 .ws h1,
 .ws p {
@@ -178,7 +180,8 @@ section {
   background-image: url(../img/section-bg1.jpg);
 }
 .article-item {
-  margin-bottom: 20px;
+  margin-bottom: 30px;
+  text-align: justify;
 }
 .service .service-icon {
   color: #1772fb;
