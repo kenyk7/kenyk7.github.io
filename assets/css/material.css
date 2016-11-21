@@ -209,6 +209,9 @@ section {
     text-align: center;
     display: inline-block;
   }
+  h1{
+    font-size: 35px;
+  }
 }
 .section-posts {
   padding-bottom: 50px;
