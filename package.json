@@ -1,0 +1,23 @@
+{
+  "name": "kenyk7.github.io",
+  "version": "1.0.0",
+  "description": "Mi página en GitHub\r ###Visitar en:\r https://kenyk7.github.io",
+  "main": "index.js",
+  "scripts": {
+    "dev": "tailwindcss -i ./main.css -o ./public/main.css --watch --minify"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kenyk7/kenyk7.github.io.git"
+  },
+  "keywords": [],
+  "author": "@kenyk7",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kenyk7/kenyk7.github.io/issues"
+  },
+  "homepage": "https://github.com/kenyk7/kenyk7.github.io#readme",
+  "devDependencies": {
+    "tailwindcss": "^3.2.4"
+  }
+}
